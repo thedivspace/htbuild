@@ -1,9 +1,8 @@
-<p align="center"><img src ="https://htbuild.thedivspace.com/assets/img/htbuild-logo%202.png" width="110" /></p>
+<p align="center"><img src ="https://htbuild.thedivspace.com/assets/img/htbuild-logo%202.png" width="140" /></p>
 
 <p align="center"><b>htBuild</b></br> 🚀 0 - Bytes of Deployment</p>
 
-<hr>
-
+> **NOTE** : Install with -g flag to ensure working of 'htBuild' cli. 
 
 #### Hard things made easy!
 
@@ -27,7 +26,7 @@ Get ready to install htBuild by following the steps given below:
 2. Open command line and enter below command
 
 ```javascript
-npm install @thedivspace/htbuild
+npm install -g @thedivspace/htbuild
 ```
 
 Know more on -  [htBuild Install Guide](https://htbuild.thedivspace.com/docs/#/install)
@@ -35,10 +34,6 @@ Know more on -  [htBuild Install Guide](https://htbuild.thedivspace.com/docs/#/i
 
 
 ### Usage
-
-
-<p align="center"><img src ="https://htbuild.thedivspace.com/assets/img/file-structure.png" width="380" /></p>
-
 
 * #### Component 
 
@@ -78,7 +73,7 @@ Know more on -  [htBuild Install Guide](https://htbuild.thedivspace.com/docs/#/i
 
   ```html
   <!-- Using Variable -->
-  <h1>Welcome, {{[global_variable_name]}} </h1>
+  <h1>Welcome, {{g_[global_variable_name]}} </h1>
   ```
 
   [Click here](https://htbuild.thedivspace.com/docs/#/gvariables) for detailed guidelines to create, update and use <b>global variables.</b>
@@ -115,7 +110,7 @@ Know more on -  [htBuild Install Guide](https://htbuild.thedivspace.com/docs/#/i
 
 ### Documentation
 
-Check out the guide and other docs of htBuild on our [website!](https://htbuild.thedivspace.com/)
+Check out the `README.md` guide and other docs of htBuild on our [website!](https://htbuild.thedivspace.com/)
 
 You can find more information (and the manual) on the [Documention of htBuild](https://htbuild.thedivspace.com/docs/#/). For questions and discussion, use the discussion forum of [#htbuild](https://discord.gg/2ExYddrt2e) channel on discord.
 
@@ -127,6 +122,6 @@ You can find more information (and the manual) on the [Documention of htBuild](h
 
 Got a feature request? Please add it as an issue or make a pull request.
 
-If you have a bug to report, please Create New issue to help us easily isolate it.
+If you have a bug to report, please reproduce the bug in [htBuild GitHub](https://github.com/thedivspace/htbuild) to help us easily isolate it.
 
 Would you like to contribute? 

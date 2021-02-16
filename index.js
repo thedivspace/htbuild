@@ -19,11 +19,17 @@ if(process.argv.length>2){
             break;
         case 'serve':
             banner();
+            build.build();
             var port = 3000
             if(process.argv.length>3)
                 port = process.argv[3]
             serve.serve(port);
                 break;
+        case '-v':
+        case '--version':
+            var pjson = require('./package.json');
+            console.log(pjson.version); 
+            break;    
         default:
             banner();
             help();
@@ -59,6 +65,8 @@ function init(){
         )
     );
     files.createDirectories();
+    build.build();
+    serve.serve(8080);
 }
 
 function banner(){

@@ -88,7 +88,7 @@ Know more on -  [htBuild Install Guide](https://htbuild.thedivspace.com/docs/#/i
 
   ```html
   <!-- Defining Variable -->
-  <ht-variable data-var"[variable_name]" data-val="[variable_value]"/>
+  <ht-variable data-var="[variable_name]" data-val="[variable_value]"/>
   ```
 
   ​	Refer the following to use a local variable:

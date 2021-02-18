@@ -52,7 +52,8 @@ function help(){
             'init - Creates htBuild Project\n'+
             'build - Compile source\n'+
             'serve - Autobuild and serve on :8080\n'+
-            'help - Shows htBuild help' 
+            'help - Shows htBuild help\n'+
+            '-v/--version - Current htBuild Version' 
         )
     );
 }

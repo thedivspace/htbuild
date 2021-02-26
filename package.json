@@ -1,6 +1,6 @@
 {
   "name": "@thedivspace/htbuild",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "htBuild is a framework developed by Divspace. This is the first version of htBuild released in 2021. You need not to install a new tool which in turn forces you to install a programming language you don’t use. htBuild is an easy-to-use static site framework written in JavaScript. It lets you use variables and components in static site in a very easy method. Feel free to change anything according to your tastes, no need to master much complex framework and/or terms and activities.",
   "main": "index.js",
   "bin": {
